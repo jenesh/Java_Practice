@@ -1,5 +1,10 @@
 public class Dog {
     public int weightInPounds;
+
+    public Dog(int w) {
+        weightInPounds = w;
+    }
+
     public void makenoise () {
         if (weightInPounds < 10) {
             System.out.println("Meow! Meow!");
